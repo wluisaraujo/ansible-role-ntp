@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: iac-ansible-ntp-server
   author: w.luis.araujo
   description: "Configure NTP Server"
   company: LUSAR | wluisaraujo.github.io
