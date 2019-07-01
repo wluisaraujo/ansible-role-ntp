@@ -1,4 +1,5 @@
 ---
 # defaults file for ntp-server
 service_name: ntp
+client: true
 ...
