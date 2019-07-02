@@ -13,7 +13,7 @@ services:
 
 env:
   global:
-    - ROLE_NAME: iac-ansible-ntp-server
+    - ROLE_NAME: ntp
     - ANSIBLE_ACTION_WARNINGS: "False"
     - ANSIBLE_COMMAND_WARNINGS: "False"
     - ANSIBLE_DEPRECATION_WARNINGS: "False"
@@ -58,7 +58,7 @@ install:
 
 
  # Install ansible-commons
- - ansible-galaxy install wluisaraujo.iac-ansible-ntp-server
+ - ansible-galaxy install wluisaraujo.ntp
 
 script:
  # Basic role syntax check

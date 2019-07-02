@@ -1,5 +1,5 @@
 ---
-# handlers file for ntp-server
+# handlers file for ntp
 ## SystemD
 - name: Start {{ service_name }}
   systemd:

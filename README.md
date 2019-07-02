@@ -31,7 +31,7 @@ Example Playbook
   vars:
     - name: value
   roles:
-    - iac-ansible-ntp-server
+    - ntp
 ...    
 ```
 
