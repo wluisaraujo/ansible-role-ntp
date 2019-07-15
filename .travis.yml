@@ -24,6 +24,8 @@ env:
    version: 7
  - distribution: fedora
    version: 30
+ - distribution: fedora
+   version: 29  
  - distribution: ubuntu
    version: bionic
  - distribution: ubuntu
@@ -49,8 +51,7 @@ install:
 # Create ansible.cfg with correct roles_path
  - printf '[defaults]\nroles_path=../' >ansible.cfg
 
-
- # Install ansible-commons
+ # Install ansible role
  - ansible-galaxy install wluisaraujo.ntp
 
 script:
